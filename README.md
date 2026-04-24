@@ -2,7 +2,7 @@
 
 A comprehensive React application demonstrating advanced web performance optimization concepts through interactive demonstrations and real-world examples.
 
-**Final Year Project** - Built with React, Vite, and modern web performance patterns.
+Built with React, Vite, and modern web performance patterns.
 
 ---
 
