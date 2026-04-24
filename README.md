@@ -166,12 +166,6 @@ The application demonstrates:
 
 ---
 
-## 👤 Author
-
-**DHRUV KAPOOR** - Final Year Project
-
----
-
 ## 📄 License
 
 Educational Project - For academic purposes
