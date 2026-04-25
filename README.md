@@ -1,4 +1,4 @@
-# Performance Engineering Lab 🚀
+# 🚀 Performance Engineering Lab
 
 A comprehensive React application demonstrating advanced web performance optimization concepts through interactive demonstrations and real-world examples.
 
@@ -6,26 +6,50 @@ Built with React, Vite, and modern web performance patterns.
 
 ---
 
+## 📚 Research & Publications
+
+This project also includes supporting academic work created during the performance engineering study.
+
+### 📄 Research Paper
+A research paper is included in this repository covering:
+- React performance optimization techniques  
+- AppShell architecture and lazy loading  
+- Sequential vs parallel data fetching  
+- Bundle optimization and tree-shaking  
+
+It connects the concepts shown in this project with their theoretical background.
+
+### 🏅 Acceptance Certificate
+The repository also contains the acceptance certificate for the research paper.
+
+### 📑 Project Report
+A project report is included that gives an overview of:
+- The problem statement  
+- Approach taken to solve it  
+- Key outcomes and observations  
+
+---
+
 ## 📋 Features
 
-### Core Concepts
-- **AppShell Architecture** - Lightweight shell that loads instantly with lazy-loaded features
-- **Sequential vs Parallel Fetching** - Compare data fetching strategies for optimal performance
-- **Import Optimization** - Tree-shaking and efficient module loading techniques
-- **Performance Dashboard** - Overview of all performance engineering concepts
+### 🧠 Core Concepts
+- **AppShell Architecture** – Lightweight shell that loads instantly with lazy-loaded features  
+- **Sequential vs Parallel Fetching** – Compare data fetching strategies for optimal performance  
+- **Import Optimization** – Tree-shaking and efficient module loading techniques  
+- **Performance Dashboard** – Overview of all performance engineering concepts  
 
-### Performance Patterns
-- **SequentialFetchDemo** - Demonstrate sequential API calls and their impact
-- **ParallelFetchDemo** - Show parallel fetching with progress tracking
-- **BarrelImportIssue** - Highlight problems with barrel imports
-- **OptimizedImportExample** - Best practices for direct imports
-- **Feature Modules** - Lazy-loaded feature components (A, B, C)
+### ⚡ Performance Patterns
+- **SequentialFetchDemo** – Demonstrates sequential API calls and their impact  
+- **ParallelFetchDemo** – Shows parallel fetching with progress tracking  
+- **BarrelImportIssue** – Highlights problems with barrel imports  
+- **OptimizedImportExample** – Best practices for direct imports  
+- **Feature Modules** – Lazy-loaded feature components (A, B, C)  
 
-### Design System
-- **Professional UI** - Navy blue, sophisticated color palette
-- **Responsive Layout** - Works seamlessly on desktop and mobile
-- **Sidebar Navigation** - Clean, intuitive navigation with active states
-- **Interactive Components** - Gradient buttons, progress bars, code examples
+### 🎨 Design System
+- **Professional UI** – Navy blue, sophisticated color palette  
+- **Responsive Layout** – Works seamlessly on desktop and mobile  
+- **Sidebar Navigation** – Clean, intuitive navigation with active states  
+- **Interactive Components** – Gradient buttons, progress bars, and code examples  
 
 ---
 
