@@ -35,9 +35,9 @@ The paper formalizes the theoretical background behind the patterns implemented 
 
 📎 *See the included paper PDF in the repository.*
 
-### 🏅 Acceptance Certificate
+### 🏅 Submission Proof
 
-The repository includes the **official acceptance certificate** for the research paper, confirming its acceptance for publication.
+The repository includes the **official submission proof** for the research paper, confirming its submission.
 
 📎 *See the included certificate in the repository.*
 
