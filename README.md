@@ -1,55 +1,79 @@
-# 🚀 Performance Engineering Lab
+# 🚀 Performance Engineering in Modern Web Applications
 
-A comprehensive React application demonstrating advanced web performance optimization concepts through interactive demonstrations and real-world examples.
-
-Built with React, Vite, and modern web performance patterns.
+A research study on advanced web performance optimization techniques in React applications, accompanied by a working showcase that demonstrates the concepts in practice.
 
 ---
 
 ## 📚 Research & Publications
 
-This project also includes supporting academic work created during the performance engineering study.
+This repository is built around a research study on performance engineering in modern frontend applications. The accompanying React application serves as a **practical showcase** of the patterns and findings discussed in the paper.
 
 ### 📄 Research Paper
-A research paper is included in this repository covering:
-- React performance optimization techniques  
-- AppShell architecture and lazy loading  
-- Sequential vs parallel data fetching  
-- Bundle optimization and tree-shaking  
 
-It connects the concepts shown in this project with their theoretical background.
+**_Engineering Scalable Applications with Optimized Web Perf_**
+
+**Authors**
+
+| Name | Roll Number |
+|------|-------------|
+| Ananya Gupta | 2210991258 |
+| Diya Goyal | 2210991544 |
+| Dhruv Gupta | 2210991507 |
+| Jaskirat Singh | 2210990446 |
+
+*B.E. CSE, Chitkara University Institute of Engineering and Technology, Rajpura, India*
+
+The core deliverable of this work is a peer-reviewed research paper covering:
+
+- React performance optimization techniques
+- AppShell architecture and lazy loading strategies
+- Sequential vs. parallel data fetching trade-offs
+- Bundle optimization, tree-shaking, and import hygiene
+- Measurement methodology and observed performance gains
+
+The paper formalizes the theoretical background behind the patterns implemented in the showcase application and presents empirical observations from the experiments conducted during the study.
+
+📎 *See the included paper PDF in the repository.*
 
 ### 🏅 Acceptance Certificate
-The repository also contains the acceptance certificate for the research paper.
+
+The repository includes the **official acceptance certificate** for the research paper, confirming its acceptance for publication.
+
+📎 *See the included certificate in the repository.*
 
 ### 📑 Project Report
-A project report is included that gives an overview of:
-- The problem statement  
-- Approach taken to solve it  
-- Key outcomes and observations  
+
+A detailed project report is also included, covering:
+
+- **Problem statement** – the performance gaps motivating the study
+- **Approach** – methodology, tools, and patterns evaluated
+- **Implementation** – how each concept was built and tested
+- **Key outcomes** – measurable improvements and observations
+- **Conclusions** – takeaways and directions for future work
+
+📎 *See the included project report in the repository.*
 
 ---
 
-## 📋 Features
+## 🧪 Showcase Application
 
-### 🧠 Core Concepts
-- **AppShell Architecture** – Lightweight shell that loads instantly with lazy-loaded features  
-- **Sequential vs Parallel Fetching** – Compare data fetching strategies for optimal performance  
-- **Import Optimization** – Tree-shaking and efficient module loading techniques  
-- **Performance Dashboard** – Overview of all performance engineering concepts  
+To make the research tangible, this repository also contains a small React application that **demonstrates each concept from the paper as a live, interactive example**. The app is intended as supporting material — a way to see the optimization patterns running in a real browser — rather than as a standalone product.
 
-### ⚡ Performance Patterns
-- **SequentialFetchDemo** – Demonstrates sequential API calls and their impact  
-- **ParallelFetchDemo** – Shows parallel fetching with progress tracking  
-- **BarrelImportIssue** – Highlights problems with barrel imports  
-- **OptimizedImportExample** – Best practices for direct imports  
-- **Feature Modules** – Lazy-loaded feature components (A, B, C)  
+### Concepts demonstrated
 
-### 🎨 Design System
-- **Professional UI** – Navy blue, sophisticated color palette  
-- **Responsive Layout** – Works seamlessly on desktop and mobile  
-- **Sidebar Navigation** – Clean, intuitive navigation with active states  
-- **Interactive Components** – Gradient buttons, progress bars, and code examples  
+- **AppShell Architecture** – a lightweight shell that loads instantly with lazy-loaded features
+- **Sequential vs. Parallel Fetching** – side-by-side comparison of data fetching strategies
+- **Import Optimization** – barrel-import pitfalls vs. direct, tree-shakeable imports
+- **Lazy-Loaded Feature Modules** – code-splitting in action across feature boundaries
+- **Performance Dashboard** – a single overview tying all the concepts together
+
+### Patterns implemented
+
+- `SequentialFetchDemo` – sequential API calls and their cumulative latency cost
+- `ParallelFetchDemo` – parallel fetching with progress tracking
+- `BarrelImportIssue` – illustrates the cost of barrel imports on bundle size
+- `OptimizedImportExample` – the recommended direct-import alternative
+- `FeatureA / FeatureB / FeatureC` – independently lazy-loaded feature modules
 
 ---
 
@@ -71,33 +95,32 @@ src/
 │   ├── FeatureB/             # Lazy-loaded feature B
 │   └── FeatureC/             # Lazy-loaded feature C
 ├── performance-patterns/
-│   ├── SequentialFetchDemo.jsx      # Sequential fetch example
-│   ├── ParallelFetchDemo.jsx        # Parallel fetch example
-│   ├── BarrelImportIssue.jsx        # Import optimization issue
-│   └── OptimizedImportExample.jsx   # Import optimization solution
+│   ├── SequentialFetchDemo.jsx
+│   ├── ParallelFetchDemo.jsx
+│   ├── BarrelImportIssue.jsx
+│   └── OptimizedImportExample.jsx
 ├── utils/
-│   ├── mockApi.js            # Mock API for demos
-│   ├── largeModule.js        # Large module for import demos
-│   └── timers.js             # Utility functions
-├── App.jsx                   # Main React component
-├── main.jsx                  # Vite entry point
-└── styles.css                # Professional design system
-
+│   ├── mockApi.js
+│   ├── largeModule.js
+│   └── timers.js
+├── App.jsx
+├── main.jsx
+└── styles.css
 ```
 
 ---
 
 ## 🔧 Tech Stack
 
-- **React 18** - UI library with hooks
-- **Vite 4** - Modern build tool
-- **React Router** - Client-side routing
-- **Vanilla CSS** - Custom design system with CSS variables
-- **ES6 Modules** - Modern JavaScript
+- **React 18** – UI library with hooks
+- **Vite 4** – modern build tool
+- **React Router** – client-side routing
+- **Vanilla CSS** – custom design system with CSS variables
+- **ES6 Modules** – modern JavaScript
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running the Showcase
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -105,31 +128,16 @@ src/
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd my-react-app
-   ```
+```bash
+git clone <repository-url>
+cd my-react-app
+npm install
+npm run dev
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+The app will be available at `http://localhost:5173` (or the next available port).
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   The app will be available at `http://localhost:5173` (or the next available port)
-
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
-
----
-
-## 📦 Available Scripts
+### Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -141,66 +149,24 @@ src/
 
 ## 🎓 Learning Outcomes
 
-This project demonstrates:
+Together, the paper, report, and showcase demonstrate:
 
-- **AppShell Architecture** - Component lazy loading and code splitting
-- **Performance Optimization** - Efficient data fetching patterns
-- **Module Loading** - Tree-shaking and bundle optimization
-- **UI/UX Design** - Professional component design and responsive layouts
-- **React Concepts** - Hooks, routing, lazy loading, suspension
-- **Web Standards** - Modern CSS, semantic HTML, accessibility
-
----
-
-## 🎨 Design System
-
-### Color Palette
-- **Primary**: Deep Navy Blue (#1a365d)
-- **Accent**: Professional Blue (#3182ce)
-- **Success**: Professional Green (#38a169)
-- **Background**: Off-white (#f7fafc)
-
-### Typography
-- **Font**: Inter (system fallback: -apple-system, BlinkMacSystemFont)
-- **Sizes**: 8-step scale from xs to 4xl
-- **Weights**: 400 (normal), 500 (medium), 600 (semibold), 700 (bold)
-
-### Spacing
-- **System**: 12-step scale (0.25rem to 3rem)
-- **Consistent**: Based on 0.25rem units
-
----
-
-## 🔍 Performance Metrics
-
-The application demonstrates:
-- **Code Splitting** - Lazy-loaded routes reduce initial bundle
-- **Sequential vs Parallel** - API fetch optimization patterns
-- **Import Optimization** - Efficient module resolution
-- **Responsive Design** - Mobile-first approach
+- AppShell architecture, component lazy loading, and code splitting
+- Efficient data fetching patterns and their measurable impact
+- Tree-shaking and bundle optimization through better imports
+- Practical application of React hooks, routing, and `Suspense`
+- A reproducible methodology for measuring frontend performance
 
 ---
 
 ## 📝 Notes
 
-- This is an educational project showcasing performance engineering concepts
-- Mock APIs are used for demonstrations
-- All features are interactive with real-time feedback
-- The app works offline after initial load (due to lazy loading)
+- This repository is **primarily a research artifact**; the application is included as a live demonstration of the concepts discussed in the paper and report.
+- Mock APIs are used so the demonstrations run without external dependencies.
+- All demos are interactive and provide real-time feedback.
 
 ---
 
 ## 📄 License
 
-Educational Project - For academic purposes
-
-
-The application will be running on `http://localhost:3000`.
-
-## Usage
-
-You can modify the `src/App.js` file to change the main application logic and add components in the `src/components` directory.
-
-## Contributing
-
-Feel free to submit issues or pull requests for any improvements or features you would like to see in this project.
+Educational and academic project — for research and learning purposes.
