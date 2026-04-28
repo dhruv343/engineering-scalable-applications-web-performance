@@ -39,7 +39,7 @@ The paper formalizes the theoretical background behind the patterns implemented 
 
 The repository includes the **official submission proof** for the research paper, confirming its submission.
 
-📎 *See the included certificate in the repository.*
+📎 *See the included submission screenshot in the repository.*
 
 ### 📑 Project Report
 
