@@ -1,4 +1,4 @@
-# README — submission package
+# README
 
 ## Project title
 
